@@ -1,0 +1,96 @@
+.competitive-programming {
+    text-align: center;
+    padding: 40px 20px;
+    /* background: #0d1b2a; */
+    color: white;
+    margin: 50px 0px;
+    margin-left: 140px;
+  }
+  .competitive-programming  h2 {
+    font-weight: bold;
+    color: #138781;
+  }
+  .competitive-programming hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+   
+  }
+  .cp-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .cp-card {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+    border: 2px solid #4a5568;
+    transition: 0.3s;
+  }
+  
+  .cp-card:hover {
+    transform: translateY(-5px);
+    border-color: #6c5ce7;
+  }
+  
+  .cp-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .cp-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .cp-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .cp-badge {
+    background: #6c5ce7;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .cp-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .cp-link:hover {
+    background: #4834d4;
+  }
+  
+
+  @media (max-width: 600px) {
+    .competitive-programming{
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .competitive-programming hr {
+      width: 280px;
+    }
+  }
